@@ -5,9 +5,10 @@ char* welcome() {
 }  
 
 int main() {
-    int a;
-    scanf("%f",&a);
-    printf("%s You Entered: ")
-    printf(a)
+    // int a;
+    // scanf("%f",&a);
+    // printf("%s You Entered: ")
+    // printf(a)
+    printf("hello");
     return 0;
 }
