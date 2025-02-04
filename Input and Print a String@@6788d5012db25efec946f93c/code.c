@@ -1,4 +1,5 @@
 #include <stdio.h>
+#incldue <string.h>
 int main() {
     char a[100];
     scanf("%s",&a);
