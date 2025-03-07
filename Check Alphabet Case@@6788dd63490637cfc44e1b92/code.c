@@ -12,7 +12,7 @@ int main() {
     printf("Uppercase");
     }
     else {
-        printf("Not an alpahbet")
+        printf("Not an alphabet");
     }
     return 0;
 }
