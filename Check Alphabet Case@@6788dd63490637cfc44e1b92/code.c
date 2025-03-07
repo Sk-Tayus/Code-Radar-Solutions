@@ -4,12 +4,14 @@
 int main() {
     char ch,k;
     scanf(" %c",&ch);
+    if (isalpha(ch)) {
     k = tolower(ch);
     if (ch == k) {
     printf("Lowercase");
     }
     else if (ch != k) {
     printf("Uppercase");
+    }
     }
     else  {
         printf("Not an alphabet");
