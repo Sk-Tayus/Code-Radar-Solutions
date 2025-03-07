@@ -2,7 +2,7 @@
 int main () {
     int a,b,margin;
     scanf("%d %d",&a,&b);
-    margin = a - b;
+    margin = b - a;
     if (margin<0) {
         printf("Loss");
     }
