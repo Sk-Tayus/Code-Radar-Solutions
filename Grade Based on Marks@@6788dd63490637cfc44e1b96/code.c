@@ -13,7 +13,7 @@ int main() {
     } else if (marks >= 80) {
         printf("B\n");
     } else if (marks >= 70) {
-        printf"Grade: C\n");
+        printf("Grade: C\n");
     } else if (marks >= 60) {
         printf("D\n");
     } else {
