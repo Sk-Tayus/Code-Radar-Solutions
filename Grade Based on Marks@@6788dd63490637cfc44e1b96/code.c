@@ -1,13 +1,7 @@
 #include <stdio.h>
-
 int main() {
     int marks;
-    
-    // Input marks
-    printf("Enter marks: ");
     scanf("%d", &marks);
-
-    // Grading system
     if (marks >= 90) {
         printf("\n");
     } else if (marks >= 80) {
@@ -19,6 +13,5 @@ int main() {
     } else {
         printf("F\n");
     }
-
     return 0;
 }
