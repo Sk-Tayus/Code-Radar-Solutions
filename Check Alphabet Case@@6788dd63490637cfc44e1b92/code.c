@@ -11,8 +11,8 @@ int main() {
     else if (ch != k) {
     printf("Uppercase");
     }
-    else {
-        printf("Not an alphabet")
+    else if {
+        printf("Not an alphabet");
     }
     return 0;
 }
