@@ -3,7 +3,7 @@
 int main() {
     char ch,result;
     scanf("%c ",&ch);
-    result = ch.tolower;
+    result = tolower(ch);
     printf("%c" result);
     return 0;
 }
