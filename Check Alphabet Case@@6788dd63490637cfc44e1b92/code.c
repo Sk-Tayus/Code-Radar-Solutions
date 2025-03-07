@@ -9,10 +9,10 @@ int main() {
     printf("Lowercase");
     }
     else if (ch != k) {
-    printf("Uppercase");
+    printf("Not an alphabet");
     }
     else {
-        printf("Not an alphabet");
+    printf("Uppercase");
     }
     return 0;
 }
