@@ -3,7 +3,8 @@
 #include <ctype.h>
 int main() {
     char ch,k;
-    scanf("%c",&ch);
-    printf("%c",ch);
+    scanf(" %c",&ch);
+    k = tolower(ch);
+    printf("%c",k);
     return 0;
 }
