@@ -5,6 +5,14 @@ int main() {
     char ch,k;
     scanf(" %c",&ch);
     k = tolower(ch);
-    printf("%c",k);
+    if (ch == k) {
+    printf("Lowercase");
+    }
+    else if (ch != k) {
+    printf("Uppercase");
+    }
+    else {
+        printf("Not an alpahbet")
+    }
     return 0;
 }
