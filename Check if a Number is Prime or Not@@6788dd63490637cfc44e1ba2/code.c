@@ -14,11 +14,8 @@ int main () {
                 printf("Not Prime");
                 return 0;
             }
-            else {
-                printf("Prime");
-                break;
-            }
         }
+        printf("Prime");
     }
     return 0;
 }
