@@ -6,7 +6,7 @@ int main () {
         printf("Not Prime");
     }
 
-    else if {
+    else if (a>2){
         for (int i = 0; i*i <= a; i++) {
             if (a % i == 0) {
                 printf("Not Prime");
