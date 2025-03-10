@@ -7,20 +7,15 @@ int main() {
                 if (i == 1 || i == a) {
                     printf("*");
                 }
-                else {
-                    for (int k = 1; k<=a; k++) {
-                        if (k == 1 || k == j) {
+                else { 
+                        if (j == 1 || j == a) {
                             printf("*");
                         }
                         else {
-                            printf("7");
+                            printf(" ");
                         }
-                    }
                 }
             }
-        // for (int k = 1; k<=a; k++) {
-        //         printf("7");
-        //     }
         printf("\n");
     }
     return 0;
