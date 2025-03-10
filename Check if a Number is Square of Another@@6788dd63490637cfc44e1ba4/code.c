@@ -4,11 +4,12 @@
 int main () {
     int a,b;
     scanf("%d",&a);
-    if (b == pow(a,2)) {
-        printf("y");
+    scanf("%d",&b);
+    if (b == a*a) {
+        printf("Yes");
     }
     else {
-        printf("ya");
+        printf("No");
 
     }
     return 0;
