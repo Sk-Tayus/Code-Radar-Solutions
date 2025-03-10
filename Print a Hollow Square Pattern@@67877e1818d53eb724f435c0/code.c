@@ -7,10 +7,15 @@ int main() {
                 if (i == 1 || i == a) {
                     printf("*");
                 }
+                else {
+                    for (int k = 1; k<=a; k++) {
+                        printf("7");
+                    }
+                }
             }
-        for (int k = 1; k<=a; k++) {
-                printf("7");
-            }
+        // for (int k = 1; k<=a; k++) {
+        //         printf("7");
+        //     }
         printf("\n");
     }
     return 0;
