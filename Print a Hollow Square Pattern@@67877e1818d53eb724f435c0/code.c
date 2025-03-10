@@ -9,7 +9,12 @@ int main() {
                 }
                 else {
                     for (int k = 1; k<=a; k++) {
-                        printf("7");
+                        if (k == 1 || k == a) {
+                            printf("*");
+                        }
+                        else {
+                            printf("7");
+                        }
                     }
                 }
             }
