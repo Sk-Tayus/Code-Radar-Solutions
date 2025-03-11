@@ -11,7 +11,6 @@ int main () {
         }
         printf("\n");
     }
-    printf("\n");
     for (int n = 1; n <=a; n++) {
         // print the spaces
         for (int l = 1; l<=n; l++) {
