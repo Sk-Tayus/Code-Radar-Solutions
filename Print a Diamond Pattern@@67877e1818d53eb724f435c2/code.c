@@ -13,7 +13,7 @@ int main () {
         // for (int l = 1; l<=i; l++) {
         //     printf("7");
         // }
-        for (int m = i; m>=(2*i+1); m--) {
+        for (int m = i; m>=(3-2*i); m--) {
             printf("*");
         }
         printf("\n");
