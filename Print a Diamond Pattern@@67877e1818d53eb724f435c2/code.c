@@ -9,6 +9,8 @@ int main () {
         for (int j = 1; j<=(2*i-1); j++) {
             printf("*");
         }
+    }
+    for (int n = 0; n <=a; n++) {
         // print the spaces
         for (int l = 1; l<=i; l++) {
             printf("7");
