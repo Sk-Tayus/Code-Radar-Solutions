@@ -4,8 +4,11 @@ int main() {
     if (temp <=0) {
         printf("Freezing");
     }
-    else {
+    else if (temp >0) {
         printf("Above Freezing");
+    }
+    else {
+        printf("yoyo");
     }
     return 0;
 }
