@@ -10,7 +10,8 @@ int main () {
             printf("*");
         }
     }
-    for (int i = 0; i <=a; i++) {
+    printf("\n");
+    for (int i = 1; i <=a; i++) {
         // print the spaces
         for (int l = 1; l<=i; l++) {
             printf("7");
