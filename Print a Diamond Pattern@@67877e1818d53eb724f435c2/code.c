@@ -9,10 +9,11 @@ int main () {
         // for (int j = 1; j<=(2*i-1); j++) {
         //     printf("*");
         // }
-        for (int l = 1; l<=i; l++) {
-            printf("7");
-        }
-        for (int m = a; m>=(1-i); m--) {
+        //print the spaces
+        // for (int l = 1; l<=i; l++) {
+        //     printf("7");
+        // }
+        for (int m = 1; m>=(2*i+1); m--) {
             printf("*");
         }
         printf("\n");
