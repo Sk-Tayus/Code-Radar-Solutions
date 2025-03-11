@@ -14,7 +14,7 @@ int main () {
     for (int n = 1; n <=a; n++) {
         // print the spaces
         for (int l = 1; l<=n; l++) {
-            printf("7");
+            printf(" ");
         }
         for (int m = 1; m<=(2*(a-n)-1); m++) {
             printf("*");
