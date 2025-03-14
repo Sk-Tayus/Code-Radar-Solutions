@@ -1,13 +1,12 @@
 #include <stdio.h>
-int main () {
+int main() {
     int a;
-    scanf("%d",&a);
-    int n = 1;
-    for (int i = 1; i<=a; i++) {
-        for (int j = 1; j<=i; j++) {
-            // printf("%d ",n);
-            if ((j == (i-1)) || ((i % 2 == 0) && (j == 1))) printf("0 ");
-            else printf("1 ");
+    scanf("%d", &a);
+    for (int i = 1; i <= a; i++) {
+        int num = (i % 2 == 1) ? 1 : 0; // Start with 1 for odd rows, 0 for even rows
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", num);
+            num = 1 - num; // Alternate between 1 and 0
         }
         printf("\n");
     }
