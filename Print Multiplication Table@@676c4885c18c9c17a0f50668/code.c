@@ -2,8 +2,9 @@
 int main () {
     int a;
     scanf("%d",&a);
-    for (int i = 1; i<=a; i++) {
+    for (int i = 1; i<=10; i++) {
         printf("%d xi %d = %d ",a,i,a*i);
+        printf("\n");
     }
     return 0;
 }
