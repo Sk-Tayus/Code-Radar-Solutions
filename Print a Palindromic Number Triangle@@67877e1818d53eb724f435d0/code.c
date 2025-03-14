@@ -10,6 +10,9 @@ int main() {
             if (j>i) break;
             printf("%d", j);
         }
+        for (int j = i; j>=1; j--) {
+            printf("%d",j);
+        }
         printf("\n");
     }
     return 0;
