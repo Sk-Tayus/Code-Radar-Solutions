@@ -6,7 +6,7 @@ int main () {
     for (int i = 1; i<=a; i++) {
         for (int j = 1; j<=i; j++) {
             // printf("%d ",n);
-            if (j == (i-1)) printf("0 ");
+            if ((j == (i-1)) || (i % 2 == 0) ) printf("0 ");
             else printf("1 ");
         }
         printf("\n");
