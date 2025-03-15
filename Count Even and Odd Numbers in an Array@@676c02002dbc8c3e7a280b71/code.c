@@ -9,7 +9,7 @@ int main () {
     }
     for (int i = 1; i <= a; i++) {
         if (arr[i] % 2 == 0) even_count++;
-        else (arr[i] % 2 != 0) odd_count++;
+        else odd_count++;
     }
     printf("%d ",even_count);
     printf("%d",odd_count);
