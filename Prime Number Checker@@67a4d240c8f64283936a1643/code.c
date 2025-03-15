@@ -1,3 +1,3 @@
-int isPrime(num) {
+int isPrime(int num) {
     return 0;
 }
