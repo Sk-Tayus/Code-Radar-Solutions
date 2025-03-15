@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main () {
-    int a;
+    int a,even_count=0,odd_count=0;
     scanf("%d",&a);
     int arr[a];
     for (int i = 1; i<=a; i++)
@@ -10,7 +10,8 @@ int main () {
     // Print the array elements
     printf("The array elements are: ");
     for (int i = 1; i <= a; i++) {
-        printf("%d ", arr[i]);
+        if (arr[i] % 2 == 0) even_count++;
+        if (arr[i] % 2 != 0) odd_count++;
     }
     return 0;
 }
