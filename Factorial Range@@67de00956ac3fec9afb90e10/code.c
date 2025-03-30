@@ -1,7 +1,7 @@
 #include <stdio.h>
 int factorialRange(int start, int end) {
     int fact = 1;
-    if(start <0 || end <0) printf("Invalid range");
+    if((start <0 || end <0) || (start > end)) printf("Invalid range");
     else {
     for (int i = start; i<=end;i++) {
         for (int j = 1; j<=i; j++) {
