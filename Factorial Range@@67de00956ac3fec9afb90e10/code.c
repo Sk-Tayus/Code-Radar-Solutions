@@ -2,7 +2,7 @@
 int factorialRange(int start, int end) {
     int fact = 1;
     for (int i = start; i<=end;i++) {
-        for (int j = i; j<=end; j++) {
+        for (int j = 1; j<=i; j++) {
             if(i==0) fact*=1;
             else fact*=j;
         }
